@@ -1,0 +1,3 @@
+## Overview
+
+This program rums connect 4 with visuals on the command line. Allows for 2 players to play connect 4 in the same terminal, where input is sent to stdin and output is printed to stdout. Players can either be set to be a player that proivdes input in real time and a computer, that will automatically make moves. The game draws a traditonal connect 4 board and supports animated pieces falling.
