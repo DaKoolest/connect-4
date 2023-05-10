@@ -7,7 +7,7 @@
 #define COLS 7 // amount of coloumns the board should have
 #define ROWS 6 // amount of rows the board should have
 #define NUM_ADJ_PIECES 4 // amount
-#define PIECE_FALL_DELAY 70000 //170000 // piece fall delay in microseconds
+#define PIECE_FALL_DELAY 70000 // piece fall delay in microseconds
 
 typedef enum {EMPTY = 0, P1, P2} PIECE;
 
@@ -36,7 +36,7 @@ int main(void) {
     int turn;
 
     // array that stores the type that player 0 and 1 are. 0 is computer, 1 is person.
-    short players[] = {0, 0};
+    short players[] = {1, 0};
 
     while (1) {
         // resets game
@@ -66,6 +66,7 @@ int main(void) {
 
         // clears stdin
         while ((response = getchar()) != EOF && response != '\n');
+
         printf("Enter 'y' to play again or anything else to exit:\n");
         scanf("%c", &response);
 
