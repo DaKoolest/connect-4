@@ -8,10 +8,10 @@ First clone the repository in the desired directory using
 ``` sh
 git clone https://github.com/DaKoolest/connect-4.git
 ```
-Next, using your C compiler of choice, compile 'connect-four.c' (note, the file was programmed in C17)
+Next, using your C compiler of choice, compile 'connect-four.c' (note: the file was programmed in C17; the command below is for macOS)
 ``` sh
 gcc connect-4.c -o connect-4.x
 ```
-Then, just run the executable via your command line. If you wish to change the number of rows and columns of the board, the amount of pieces needed to get in a row to win, or the rate at which pieces fall, you can edit the constants defined at the top of `connect-4.c`. To change the type of player assigned to P1 and P2, you must modify the declaration of `short players[]` in `int main(void)`. The first element corresponds to the type of the first player, and similarly the second corresponds to the type of the second. `0` refers to a computer, and `1` refers to a player that inputs moves in the command line.
+Then, just run the executable via your command line. If you wish to change some of the default parameters, run the executable with the `--help` to see which ones can be changed.
 
 
