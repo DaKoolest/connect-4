@@ -1,6 +1,6 @@
 ## Overview
 
-This program runs connect 4 with visuals in your terminal. Allows for 2 players to play connect 4 in the same terminal, where input is sent to stdin and output is printed to stdout. Players can either be set to be a player that proivdes input in real time and a computer, that will automatically make moves. The game draws a traditonal connect 4 board and supports animated pieces falling.
+This program runs connect 4 with visuals in your terminal. Allows for 2 players to play connect 4 in the same terminal, where input is sent to stdin and output is printed to stdout. Players can either be set to be a player that provides input in real time or a computer that will automatically make moves. The game draws a traditional connect 4 board and supports animated pieces falling.
 
 ## Usage
 
